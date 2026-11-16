@@ -1,5 +1,13 @@
 # Offline Relay
 
+<!-- portfolio-website:start -->
+## Website
+
+[Open offline-relay website](https://royalpuskar.github.io/offline-relay/)
+
+GitHub Pages deployment was confirmed during portfolio setup.
+<!-- portfolio-website:end -->
+
 An interactive experiment in reliable delivery across simulated disconnections. Two clients edit one announcement; a versioned receiver rejects stale writes, remembers delivery receipts, and makes conflicting changes available for human review.
 
 ## What works
@@ -53,3 +61,10 @@ One unresolved operation per client; one text record; sequential in-process deli
 Next: durable outbox storage, an authenticated transactional receiver, interrupted-response simulation, and multi-record dependencies. These are roadmap items, not implemented capabilities.
 
 See [SECURITY.md](SECURITY.md) and [CONTRIBUTING.md](CONTRIBUTING.md). MIT license, copyright 2026 Royalpuskar.
+
+
+<!-- portfolio-rights:start -->
+## Copyright
+
+© 2026 Puskar (Royalpuskar). All rights reserved except the permissions expressly granted by this repository’s MIT License. Third-party rights and notices remain with their owners.
+<!-- portfolio-rights:end -->
